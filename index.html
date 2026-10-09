@@ -1,9 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Freja Chung Jepsen – European Champion Karate Athlete | Sponsorship</title>
+  <meta name="description"
+    content="Freja Chung Jepsen is a 16-year-old Danish elite karate athlete, reigning European Champion and member of the Danish Karate Federation Kata National Team and Team Denmark. Become a sponsor and follow her journey.">
+  <link rel="canonical" href="https://frejachungjepsen.dk/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#faf6f0">
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23c4552f'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-weight='700' text-anchor='middle' fill='%23fff'%3EFJ%3C/text%3E%3C/svg%3E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Freja Chung Jepsen">
+  <meta property="og:title" content="Freja Chung Jepsen – European Champion Karate Athlete">
+  <meta property="og:description"
+    content="Danish elite karate athlete, reigning European Champion and Team Denmark athlete. Follow the journey and become a sponsor.">
+  <meta property="og:url" content="https://frejachungjepsen.dk/">
+  <meta property="og:image" content="https://frejachungjepsen.dk/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Freja Chung Jepsen wearing her medal with a Danish Karate Federation coach">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Freja Chung Jepsen – European Champion Karate Athlete">
+  <meta name="twitter:description"
+    content="Danish elite karate athlete, reigning European Champion and Team Denmark athlete. Follow the journey and become a sponsor.">
+  <meta name="twitter:image" content="https://frejachungjepsen.dk/assets/og-image.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://frejachungjepsen.dk/#website",
+        "url": "https://frejachungjepsen.dk/",
+        "name": "Freja Chung Jepsen",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://frejachungjepsen.dk/#person",
+        "name": "Freja Chung Jepsen",
+        "givenName": "Freja Maria",
+        "familyName": "Chung Jepsen",
+        "jobTitle": "Elite karate athlete",
+        "description": "Danish elite karate athlete, reigning European Champion and member of the Danish Karate Federation Kata National Team and Team Denmark.",
+        "url": "https://frejachungjepsen.dk/",
+        "image": "https://frejachungjepsen.dk/assets/og-image.jpg",
+        "nationality": { "@type": "Country", "name": "Denmark" },
+        "knowsAbout": ["Karate", "Kata", "Elite sport"],
+        "memberOf": [
+          { "@type": "SportsOrganization", "name": "Danish Karate Federation" },
+          { "@type": "Organization", "name": "Team Denmark" }
+        ],
+        "sameAs": ["https://www.instagram.com/frejachung.karate/"]
+      }
+    ]
+  }
+  </script>
+
   <script src="./support.js"></script>
 </head>
 
@@ -11,6 +70,7 @@
   <x-dc>
     <helmet>
       <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link
         href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&family=Work+Sans:wght@400;500;600;700&display=swap"
         rel="stylesheet">
@@ -76,6 +136,7 @@
           <a href="#athlete-life" style="color:oklch(0.2 0.012 60);">Athlete Life</a>
           <a href="#goals" style="color:oklch(0.2 0.012 60);">Goals</a>
           <a href="#follow" style="color:oklch(0.2 0.012 60);">Follow</a>
+          <a href="gallery.html" style="color:oklch(0.2 0.012 60);">Gallery</a>
           <a href="#sponsor" style="color:oklch(0.2 0.012 60);">Sponsor</a>
           <a href="#contact"
             style="display:inline-flex;padding:10px 20px;background:oklch(0.58 0.13 42);color:oklch(0.98 0.01 70);border-radius:3px;font-weight:600;">Contact</a>
@@ -95,6 +156,7 @@
           <a href="#athlete-life" onclick="{{ toggleMenu }}" style="color:oklch(0.2 0.012 60);">Athlete Life</a>
           <a href="#goals" onclick="{{ toggleMenu }}" style="color:oklch(0.2 0.012 60);">Goals</a>
           <a href="#follow" onclick="{{ toggleMenu }}" style="color:oklch(0.2 0.012 60);">Follow</a>
+          <a href="gallery.html" style="color:oklch(0.2 0.012 60);">Gallery</a>
           <a href="#sponsor" onclick="{{ toggleMenu }}" style="color:oklch(0.2 0.012 60);">Sponsor</a>
           <a href="#contact" onclick="{{ toggleMenu }}" style="color:oklch(0.58 0.13 42);">Contact</a>
         </div>
@@ -133,7 +195,8 @@
           </div>
         </div>
         <div data-mobile-bottom="1" style="aspect-ratio:4/5;border-radius:4px;overflow:hidden;"><img
-            src="assets/hero-photo.jpg" alt="Freja Chung Jepsen with medal"
+            src="assets/hero-photo.jpg" width="1100" height="1462" fetchpriority="high" decoding="async"
+            alt="Freja Chung Jepsen, European Champion in karate, wearing her medal and the Danish national team jacket"
             style="width:100%;height:100%;object-fit:cover;object-position:center 20%;"></div>
       </div>
 
@@ -182,7 +245,8 @@
         <div data-media-grid="1"
           style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:0.9fr 1.1fr;gap:64px;align-items:center;">
           <div data-mobile-bottom="1" style="aspect-ratio:1/1;border-radius:4px;overflow:hidden;"><img
-              src="assets/training-photo.jpg" alt="Freja in kata stance"
+              src="assets/training-photo.jpg" width="480" height="640" loading="lazy" decoding="async"
+              alt="Freja Chung Jepsen in a karate kata stance during training"
               style="width:100%;height:100%;object-fit:cover;"></div>
           <div>
             <div
@@ -240,7 +304,8 @@
           </p>
         </div>
         <div data-mobile-bottom="1" style="aspect-ratio:4/5;border-radius:4px;overflow:hidden;"><img
-            src="assets/falko.jpg" alt="Freja infront of Falco, ready for the high school"
+            src="assets/falko.jpg" width="1100" height="834" loading="lazy" decoding="async"
+            alt="Freja Chung Jepsen in front of Falko Gymnasium in Copenhagen, ready to start high school with Team Denmark"
             style="width:100%;height:100%;object-fit:cover;object-position:center 20%;"></div>
       </div>
 
@@ -335,16 +400,7 @@
             talent, hard work and resources.</p>
           <p style="font-size:16px;line-height:1.75;color:oklch(0.3 0.012 60);margin:0 0 24px;">International
             competitions involve significant expenses for flights, transportation, accommodation, entry fees, training
-            camps and equipment. At the same time, daily training requires both time and transportation – including
-            regular travel to Dragør.</p>
-          <div
-            style="display:inline-flex;flex-direction:column;padding:24px 40px;background:oklch(0.93 0.03 45);border-radius:4px;margin:0 0 24px;">
-            <div style="font-family:'Lora',serif;font-weight:600;font-size:30px;color:oklch(0.48 0.13 42);">DKK 75,000
-            </div>
-            <div
-              style="font-size:13px;color:oklch(0.45 0.01 60);text-transform:uppercase;letter-spacing:0.06em;margin-top:4px;">
-              current sports budget, every six months</div>
-          </div>
+            camps and equipment. At the same time, daily training requires both time and transportation.</p>
           <p style="font-size:16px;line-height:1.75;color:oklch(0.3 0.012 60);margin:0;">I am therefore looking for
             companies and partners who would like to support my development and become part of my journey.</p>
         </div>
